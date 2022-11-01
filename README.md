@@ -22,11 +22,11 @@ accept application/json
 *date format is yyyy-mm-dd*
 
 *BOOKS*
-http:localhost/api/books GET/POST
-http:localhost/api/books/{bookid} DELETE/PUT/GET
+localhost/api/books GET/POST
+localhost/api/books/{bookid} DELETE/PUT/GET
 
 *AUTHORS*
 *จะเห็นความสัมพันธ์ของ author กับ books ที่ GET แบบ id*
-http:localhost/api/authors GET/POST
-http:localhost/api/authors/{authorid} DELETE/PUT/GET
+localhost/api/authors GET/POST
+localhost/api/authors/{authorid} DELETE/PUT/GET
 
